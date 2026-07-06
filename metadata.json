@@ -1,0 +1,17 @@
+{
+    "title": "Mathematics: Sine and Cosine",
+    "slug": "maths-trigonometry-sine-cosine",
+    "description": "Introduces the sine and cosine functions of an angle, measured in radians, as the foundation for describing rotation and periodic behaviour. Provides the trigonometric groundwork needed for the polar form of complex numbers.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "maths"
+    ],
+    "duration": 5,
+    "prerequisites": [],
+    "related": [
+        "maths-complex-argument",
+        "maths-complex-polar-form"
+    ]
+}
