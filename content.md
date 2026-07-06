@@ -43,7 +43,7 @@ Here are the values at frequently-used angles (in radians):
 | $\cos \phi$ | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ | $-1$ | $0$ | $1$ |
 | $\sin \phi$ | $0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ | $0$ | $-1$ | $0$ |
 
-Notice how cosine starts at its maximum value of $1$ when $\phi = 0$, while sine starts at $0$. As $\phi$ increases, cosine decreases while sine increases, until they swap roles at $\phi = \pi/2$.
+Notice how cosine starts at its maximum value of $1$ when $\phi = 0$, while sine starts at $0$. Initially, as $\phi$ increases, cosine decreases while sine increases.
 
 # Visualizing the Functions
 
