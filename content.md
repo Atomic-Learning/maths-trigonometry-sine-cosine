@@ -1,8 +1,8 @@
-## Defining Sine and Cosine
+# Defining Sine and Cosine
 
 The sine and cosine functions are fundamental to describing angles and periodic behaviour. They are defined using the unit circle: a circle of radius 1 centered at the origin of a coordinate system.
 
-### The Unit Circle Definition
+## The Unit Circle Definition
 
 Given an angle $\phi$ measured in **radians** from the positive $x$-axis, the sine and cosine of $\phi$ are defined as:
 
@@ -17,7 +17,7 @@ Visually:
 
 The blue line represents the angle $\phi$ measured counterclockwise from the positive $x$-axis. The point on the circle is at coordinates $(\cos \phi, \sin \phi)$. The green line shows $\cos \phi$ (the horizontal distance from the origin), and the orange line shows $\sin \phi$ (the vertical distance from the origin).
 
-### Key Properties
+# Key Properties
 
 **Range:** Since the point lies on a circle of radius 1, both sine and cosine are always between $-1$ and $1$:
 
@@ -33,7 +33,7 @@ $$
 \cos(\phi + 2\pi) = \cos \phi
 $$
 
-### Evaluating Sine and Cosine at Key Angles
+# Evaluating Sine and Cosine at Key Angles
 
 Here are the values at frequently-used angles (in radians):
 
@@ -45,7 +45,7 @@ Here are the values at frequently-used angles (in radians):
 
 Notice how cosine starts at its maximum value of $1$ when $\phi = 0$, while sine starts at $0$. As $\phi$ increases, cosine decreases while sine increases, until they swap roles at $\phi = \pi/2$.
 
-### Visualizing the Functions
+# Visualizing the Functions
 
 The graphs of sine and cosine show how their values change as the angle increases:
 
@@ -57,7 +57,7 @@ $$
 \cos \phi = \sin\left(\phi + \frac{\pi}{2}\right)
 $$
 
-### Why Radians?
+# Why Radians?
 
 Angles are usually measured in **radians** in mathematics (as opposed to degrees). One complete revolution around the circle is $2\pi$ radians, equivalent to $360°$. Radians are dimensionless and make the mathematics much cleaner—for instance, the derivatives and many trigonometric identities take their simplest forms when angles are in radians.
 
