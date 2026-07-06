@@ -50,22 +50,18 @@ ax.text(x/2, -0.15, r'$\cos \varphi$', fontsize=12, color='green', fontweight='b
 # Draw sin φ projection (vertical)
 ax.plot([0, 0], [0, y], 'orange', linewidth=3, alpha=0.8)
 ax.plot([0, x], [y, y], color='orange', linestyle='--', linewidth=2, alpha=0.7)
-ax.text(-0.25, y/2, r'$\sin \varphi$', fontsize=12, color='darkorange', fontweight='bold',
+ax.text(-0.1, y/2, r'$\sin \varphi$', fontsize=12, color='darkorange', fontweight='bold',
         ha='right', bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.7))
 
 # Label the point on the circle
-ax.text(x + 0.15, y + 0.15, f'({x:.2f}, {y:.2f})', fontsize=10, 
+ax.text(x + 0.05, y + 0.05, f'({x:.2f}, {y:.2f})', fontsize=10, 
         bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
 
 # Mark key points on the circle
-for angle, label in [(0, '1'), (np.pi/2, 'i'), (np.pi, '-1'), (3*np.pi/2, '-i')]:
-    px, py = np.cos(angle), np.sin(angle)
-    ax.plot(px, py, 'k.', markersize=6)
-    offset = 1.25
-    ax.text(offset * px, offset * py, label, fontsize=11, ha='center', va='center', fontweight='bold')
-
-# Origin label
-ax.text(-0.12, -0.12, 'O', fontsize=11, fontweight='bold')
+ax.text(1.03, -0.05, '(1, 0)', fontsize=10, ha='left', va='center')
+ax.text(-1.03, -0.05, '(-1, 0)', fontsize=10, ha='right', va='center')
+ax.text(-0.1, 1.03, '(0, 1)', fontsize=10, ha='center', va='bottom')
+ax.text(-0.1, -1.03, '(0, -1)', fontsize=10, ha='center', va='top')
 
 # Set ticks
 ax.set_xticks([-1, -0.5, 0, 0.5, 1])
