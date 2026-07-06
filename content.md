@@ -62,7 +62,3 @@ $$
 Angles are usually measured in **radians** in mathematics (as opposed to degrees). One complete revolution around the circle is $2\pi$ radians, equivalent to $360°$. Radians are dimensionless and make the mathematics much cleaner—for instance, the derivatives and many trigonometric identities take their simplest forms when angles are in radians.
 
 To convert between radians and degrees: $\text{radians} = \frac{\pi}{180} \times \text{degrees}$.
-
-### Summary
-
-Sine and cosine are the $y$ and $x$ coordinates, respectively, of a point on the unit circle at a given angle. They oscillate periodically between $-1$ and $1$ with a period of $2\pi$ radians, and their values at common angles are essential to working with rotations, periodic phenomena, and the polar representation of complex numbers.
