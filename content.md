@@ -44,9 +44,3 @@ Both functions oscillate smoothly between $-1$ and $1$, with a period of $2\pi$.
 $$
 \cos \phi = \sin\left(\phi + \frac{\pi}{2}\right)
 $$
-
-# Why Radians?
-
-Angles are usually measured in **radians** in mathematics (as opposed to degrees). One complete revolution around the circle is $2\pi$ radians, equivalent to $360°$. Radians are dimensionless and make the mathematics much cleaner—for instance, the derivatives and many trigonometric identities take their simplest forms when angles are in radians.
-
-To convert between radians and degrees: $\text{radians} = \frac{\pi}{180} \times \text{degrees}$.

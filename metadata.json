@@ -9,7 +9,9 @@
         "maths"
     ],
     "duration": 5,
-    "prerequisites": [],
+    "prerequisites": [
+        "maths-radians"
+    ],
     "related": [
         "maths-complex-argument",
         "maths-complex-polar-form"
