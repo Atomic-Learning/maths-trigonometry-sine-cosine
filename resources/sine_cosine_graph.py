@@ -16,8 +16,8 @@ sin_phi = np.sin(phi)
 cos_phi = np.cos(phi)
 
 # Plot the functions
-ax.plot(phi, cos_phi, 'b-', linewidth=2.5, label=r'$\cos \varphi$', alpha=0.8)
-ax.plot(phi, sin_phi, color='darkorange', linewidth=2.5, label=r'$\sin \varphi$', alpha=0.8)
+ax.plot(phi, cos_phi, 'b-', linewidth=2.5, label=r'$\cos \phi$', alpha=0.8)
+ax.plot(phi, sin_phi, color='darkorange', linewidth=2.5, label=r'$\sin \phi$', alpha=0.8)
 
 # Add horizontal line at y=0
 ax.axhline(y=0, color='k', linewidth=0.8, alpha=0.5)
@@ -25,10 +25,9 @@ ax.axhline(y=0, color='k', linewidth=0.8, alpha=0.5)
 # Grid
 ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.5)
 
-# Set labels and title
+# Set labels
 ax.set_xlabel('Angle (radians)', fontsize=12, fontweight='bold')
 ax.set_ylabel('Value', fontsize=12, fontweight='bold')
-ax.set_title('Sine and Cosine Functions', fontsize=14, fontweight='bold', pad=20)
 
 # Set x-axis ticks at key angles
 pi_ticks = [-2*np.pi, -3*np.pi/2, -np.pi, -np.pi/2, 0, np.pi/2, np.pi, 3*np.pi/2, 2*np.pi]
