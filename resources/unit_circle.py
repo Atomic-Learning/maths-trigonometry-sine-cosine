@@ -20,14 +20,13 @@ ax.axvline(x=0, color='k', linewidth=1.5)
 # Add axis labels
 ax.set_xlabel('x', fontsize=12, fontweight='bold')
 ax.set_ylabel('y', fontsize=12, fontweight='bold')
-ax.set_title('Unit Circle: Definitions of Sine and Cosine', fontsize=14, fontweight='bold', pad=20)
 
 # Draw unit circle
 circle = patches.Circle((0, 0), 1, linewidth=2, edgecolor='black', facecolor='none')
 ax.add_patch(circle)
 
-# Angle φ = 45 degrees = π/4 radians
-phi = np.pi / 4
+# Angle φ = 60 degrees = π/3 radians
+phi = np.pi / 3
 x = np.cos(phi)
 y = np.sin(phi)
 
@@ -39,18 +38,18 @@ ax.plot(x, y, 'ro', markersize=8)
 arc_angles = np.linspace(0, phi, 50)
 arc_r = 0.3
 ax.plot(arc_r * np.cos(arc_angles), arc_r * np.sin(arc_angles), 'b--', linewidth=1.5)
-ax.text(0.4, 0.08, r'$\varphi$', fontsize=13, color='blue', fontweight='bold')
+ax.text(0.3, 0.08, r'$\phi$', fontsize=13, color='blue', fontweight='bold')
 
 # Draw cos φ projection (horizontal)
 ax.plot([x, x], [0, y], 'g--', linewidth=2, alpha=0.7)
 ax.plot([0, x], [0, 0], 'g-', linewidth=3, alpha=0.8)
-ax.text(x/2, -0.15, r'$\cos \varphi$', fontsize=12, color='green', fontweight='bold', 
+ax.text(x/2, -0.15, r'$\cos \phi$', fontsize=12, color='green', fontweight='bold', 
         ha='center', bbox=dict(boxstyle='round', facecolor='lightgreen', alpha=0.7))
 
 # Draw sin φ projection (vertical)
 ax.plot([0, 0], [0, y], 'orange', linewidth=3, alpha=0.8)
 ax.plot([0, x], [y, y], color='orange', linestyle='--', linewidth=2, alpha=0.7)
-ax.text(-0.1, y/2, r'$\sin \varphi$', fontsize=12, color='darkorange', fontweight='bold',
+ax.text(-0.1, y/2, r'$\sin \phi$', fontsize=12, color='darkorange', fontweight='bold',
         ha='right', bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.7))
 
 # Label the point on the circle
