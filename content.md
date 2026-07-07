@@ -33,17 +33,6 @@ $$
 \cos(\phi + 2\pi) = \cos \phi
 $$
 
-# Evaluating Sine and Cosine at Key Angles
-
-Here are the values at frequently-used angles (in radians):
-
-| Angle | $0°$ (0) | $30°$ ($\pi/6$) | $45°$ ($\pi/4$) | $60°$ ($\pi/3$) | $90°$ ($\pi/2$) | $180°$ ($\pi$) | $270°$ ($3\pi/2$) | $360°$ ($2\pi$) |
-|-------|----------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------------|----|
-| $\cos \phi$ | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ | $-1$ | $0$ | $1$ |
-| $\sin \phi$ | $0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ | $0$ | $-1$ | $0$ |
-
-Notice how cosine starts at its maximum value of $1$ when $\phi = 0$, while sine starts at $0$. Initially, as $\phi$ increases, cosine decreases while sine increases.
-
 # Visualizing the Functions
 
 The graphs of sine and cosine show how their values change as the angle increases:
